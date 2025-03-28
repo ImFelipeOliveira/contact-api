@@ -6,6 +6,7 @@ var logger = require("morgan");
 const cors = require("cors");
 const dotenv = require("dotenv");
 dotenv.config();
+const auth = require("./routes/auth");
 
 var contactRouter = require("./routes/contact");
 
@@ -25,6 +26,7 @@ app.use(
     origin: [process.env.CORSALLOWED],
   })
 );
+app.use(auth);
 
 app.use("/contact", contactRouter);
 
