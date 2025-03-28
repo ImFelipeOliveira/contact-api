@@ -36,6 +36,7 @@ This is a Node.js API built with Express to manage contact messages sent through
     SMTPEMAIL=seuemail@gmail.com
     SMTPPASSWORD=suasenha
     FROMEMAIL=destinatario@gmail.com
+    APIKEY=change-me
     ```
 
 4. Start the server:
