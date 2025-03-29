@@ -22,7 +22,7 @@ This is a Node.js API built with Express to manage contact messages sent through
 
 1. Clone the repository:
     ```bash
-    git clone [repository-url]
+    git clone https://github.com/ImFelipeOliveira/contact-api.git
     ```
 
 2. Install dependencies:
