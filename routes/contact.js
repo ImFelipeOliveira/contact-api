@@ -49,7 +49,6 @@ router.post("/", async function (req, res) {
           message_id: info.messageId,
         });
       } catch (erro) {
-        console.error("Erro ao enviar e-mail:", error);
         return res.status(500).json({ error: "Erro ao enviar e-mail." });
       }
     }
